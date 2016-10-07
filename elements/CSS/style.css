@@ -8,8 +8,12 @@ marron : #B2A27A
 bleu : #313F65
 bleu clair: #7A89B2*/
 .main section.page1 {
-      background:#B2A27A;
+    background:#B2A27A;
     }
+.page1 h1{
+    color:#313F65;
+
+}
 
 
 
