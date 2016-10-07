@@ -1,11 +1,41 @@
-/* orange : #FFA22F bleu foncé:#0F2F40 bleu clair:#01AAFF   bleu*/
+
 
 body{
 font-family: 'Lobster', cursive;
 }
+/*  page 1 couleur:
+marron : #B2A27A
+bleu : #313F65
+bleu clair: #7A89B2*/
 .main section.page1 {
-      background:rgb(230, 217, 200);
+      background:#B2A27A;
     }
+/*  page 2 couleur:
+bleu clair: #999DA1
+marron : #544D3F
+gris : #A19E99
+*/
+
 .main section.page2 {
-      background:#01AAFF;
+      background:#999DA1;
+    }
+/*  page 3 couleur:
+mauve: #A18898
+vert clair: #8AAD87
+vert : #395436*/
+.main section.page3 {
+      background:#A18898;
+    }
+/*  page 4 couleur:
+vert :#8AAD87
+mauve :#603851
+lilas :#B984A5*/
+.main section.page4 {
+      background:#8AAD87;
+    }
+/*  page form couleur:
+*/
+.main section.form {
+      background-image:url(../img/contact.jpg);
+    background-size: cover;
     }
