@@ -1,0 +1,11 @@
+/* orange : #FFA22F bleu foncé:#0F2F40 bleu clair:#01AAFF   bleu*/
+
+body{
+font-family: 'Lobster', cursive;
+}
+.main section.page1 {
+      background:rgb(230, 217, 200);
+    }
+.main section.page2 {
+      background:#01AAFF;
+    }

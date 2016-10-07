@@ -2,21 +2,50 @@
 <html lang="en">
 
 <head>
-    <link href="elements/bootstrap-3.3.6-dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="elements/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" />
     <link href="elements/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="elements/css/animate.css">
-    <link type="text/css" rel="stylesheet" href="elements/style.css" />
+    <link rel="stylesheet" href="elements/onepage-scroll/onepage-scroll.css">
+    <link type="text/css" rel="stylesheet" href="elements/CSS/style.css" />
     <meta charset="UTF-8" author="Juliette Saint-Jalme">
     <title>Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
-  <script type="text/javascript" src="jquery.onepage-scroll.js"></script>
+  <script type="text/javascript" src="elements/onepage-scroll/jquery.onepage-scroll.js"></script>
     <script src="elements/js/wow.min.js"></script>
     <script>
+	  $(document).ready(function(){
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        easing: "ease",
+        updateURL: false,
+        beforeMove: function(index) {},
+        responsiveFallback: 600,
+        afterMove: function(index) {},
+        loop: false,
+        keyboard: true,
+        responsiveFallback: false
+      });
+		});
+
+	</script>
+   <!-- <script>
         new WOW().init();
-    </script>
+    </script> -->
+
 </head>
 
 <body>
+    <body>
+
+  <div class="main">
+    <section class="page1">...</section>
+    <section class="page2">...</section>
+    <section class="page3">...</section>
+    <section class="page4">...</section>
+
+  </div>
+
+</body>
 </body>
 </html>
