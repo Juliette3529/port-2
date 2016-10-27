@@ -1,65 +1,48 @@
 
 
-body{
-font-family: 'Lobster', cursive;
+body {
+    font-family: 'Lobster', cursive;
 }
-/*  page 1 couleur:
-marron : #B2A27A
-bleu : #313F65
-bleu clair: #7A89B2*/
+
 .main section.page1 {
-    background:#B2A27A;
-    }
-.page1 h1{
-    color:#313F65;
+   background: #1BBC9B;
 
 }
 
 
-
-/*  page 2 couleur:
-bleu clair: #999DA1
-marron : #544D3F
-gris : #A19E99
-*/
 
 .main section.page2 {
-      background:#999DA1;
-    }
-
-
-
-
-
-
+    background: #4BBFC3;
+}
 
 
 /*  page 3 couleur:
 mauve: #A18898
 vert clair: #8AAD87
 vert : #395436*/
+
 .main section.page3 {
-      background:#A18898;
-    }
+    background: #7BAABE;
+}
 
-
-
-
-/*  page 4 couleur:
-vert :#8AAD87
-mauve :#603851
-lilas :#B984A5*/
 .main section.page4 {
-      background:#8AAD87;
-    }
-
-
+    background: #F5F5F5;
+}
 
 
 /*  page form couleur:
+HEX: #DFDDE4
+HEX: #BDBABC
+HEX: #9A9CA0
+HEX: #6A7F8A
+HEX: #554F56
+HEX: #312B2F
+HEX: #1E2229
+HEX: #1E1921
 */
+
 .main section.form {
-    background-image:url(../img/contact.jpg);
+    background-image: url(../img/contact.jpg);
     background-size: cover;
-    opacity:0.8;
-    }
+    opacity: 0.8;
+}
