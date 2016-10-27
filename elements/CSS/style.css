@@ -40,13 +40,15 @@ HEX: #312B2F
 HEX: #1E2229
 HEX: #1E1921
 */
-.snip1401 {
-  font-family: 'Playfair Display', Arial, sans-serif;
+.mes_projets{
+    padding-top:3%;
+}
+.exemple {
   position: relative;
   float: left;
   overflow: hidden;
-  margin: 10px 1%;
-  min-width: 230px;
+  margin: 2% 2%;
+   min-width: 230px;
   max-width: 315px;
   max-height: 220px;
   width: 100%;
@@ -55,17 +57,18 @@ HEX: #1E1921
   font-size: 16px;
   background-color: #000000;
 }
-.snip1401 * {
+.exemple * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-.snip1401 img {
-  max-width: 100%;
+.exemple img {
+  width:27vw;
+    height:42vh;
   backface-visibility: hidden;
 }
-.snip1401 figcaption {
+.exemple figcaption {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -78,7 +81,7 @@ HEX: #1E1921
   -webkit-transform: translateX(150%);
   transform: translateX(150%);
 }
-.snip1401 figcaption:before {
+.exemple figcaption:before {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -91,7 +94,7 @@ HEX: #1E1921
   border-width: 120px 120px 120px 0;
   border-color: transparent #ffffff transparent transparent;
 }
-.snip1401:after {
+.exemple:after {
   position: absolute;
   bottom: 50%;
   right: 40%;
@@ -106,24 +109,24 @@ HEX: #1E1921
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-.snip1401 h3,
-.snip1401 p {
+.exemple h3,
+.exemple p {
   line-height: 1.5em;
   -webkit-transform: translateX(-30px);
   transform: translateX(-30px);
   margin: 0;
 }
-.snip1401 h3 {
+.exemple h3 {
   margin: 0 0 5px;
   line-height: 1.1em;
   font-weight: 900;
   font-size: 1.4em;
   opacity: 0.75;
 }
-.snip1401 p {
+.exemple p {
   font-size: 0.8em;
 }
-.snip1401 i {
+.exemple i {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -132,7 +135,7 @@ HEX: #1E1921
   color: #ffffff;
   opacity: 0;
 }
-.snip1401 a {
+.exemple a {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -140,22 +143,26 @@ HEX: #1E1921
   right: 0;
   z-index: 1;
 }
-.snip1401:hover img,
-.snip1401.hover img {
+.exemple:hover img,
+.exemple.hover img {
   zoom: 1;
   filter: alpha(opacity=50);
   -webkit-opacity: 0.5;
   opacity: 0.5;
 }
-.snip1401:hover:after,
-.snip1401.hover:after,
-.snip1401:hover figcaption,
-.snip1401.hover figcaption,
-.snip1401:hover i,
-.snip1401.hover i {
+.exemple:hover:after,
+.exemple.hover:after,
+.exemple:hover figcaption,
+.exemple.hover figcaption,
+.exemple:hover i,
+.exemple.hover i {
   -webkit-transform: translateX(0);
   transform: translateX(0);
   opacity: 1;
+}
+.description_projet{
+    font-size:22px;
+    margin-top:8%;
 }
 .main section.form {
     background-image: url(../img/contact.jpg);
