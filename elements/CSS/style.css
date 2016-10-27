@@ -40,26 +40,26 @@ body {
 .licence{
     background-image:url(../img/book.png);
     background-position: left;
-    background-size:70px;
+    background-size:90px;
     height:200px;
     background-repeat: no-repeat;
 }
 .licence p{
     margin-top:8%;
     font-size:22px;
-    margin-left:22%;
+    margin-left:28%;
 }
 .bac{
     background-image:url(../img/graduation.png);
     background-position: left;
-    background-size:70px;
+    background-size:90px;
     height:200px;
     background-repeat: no-repeat;
 }
 .bac p{
     margin-top:8%;
     font-size:22px;
-    margin-left:22%;
+    margin-left:28%;
 }
 .Serveuse{
     background-image:url(../img/people.png);
