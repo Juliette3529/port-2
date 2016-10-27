@@ -11,10 +11,88 @@ body {
 
 
 
+
 .main section.page2 {
     background: #4BBFC3;
 }
-
+.page2 p{
+    color:#C8FFF1;
+}
+.page2 h2{
+    color:#C8FFF1;
+}
+.icone {
+    color:#FEFEFE;
+    font-size:18px;
+    margin-left:4%;
+}
+.mon_parcours {
+    margin-bottom:5%;
+}
+.mon_parcours a{
+    color:#008388;
+    font-size:18px;
+    margin-left:2%;
+}
+.mon_parcours i{
+    font-size:29px;
+}
+.licence{
+    background-image:url(../img/lettres.png);
+    background-position: left;
+    background-size:70px;
+    height:200px;
+    background-repeat: no-repeat;
+}
+.licence p{
+    margin-top:8%;
+    font-size:22px;
+    margin-left:16%;
+}
+.bac{
+    background-image:url(../img/diplome.png);
+    background-position: left;
+    background-size:70px;
+    height:200px;
+    background-repeat: no-repeat;
+}
+.bac p{
+    margin-top:8%;
+    font-size:22px;
+    margin-left:18%;
+}
+.Serveuse{
+    background-image:url(../img/serveuse.png);
+    background-position: left;
+    background-size:90px;
+    height:200px;
+    background-repeat: no-repeat;
+}
+.Serveuse p{
+    margin-top:8%;
+    font-size:22px;
+    margin-left:28%;
+}
+.CodeAc{
+    background-image:url(../img/computer.png);
+    background-position: left;
+    background-size:90px;
+    height:200px;
+    background-repeat: no-repeat;
+}
+.CodeAc p{
+    margin-top:10%;
+    font-size:22px;
+    margin-left:30%;
+}
+.LaCodAc{
+    background-color:#C8FFF1;
+    opacity:0.8;
+}
+.LaCodAc p{
+    color:#227661;
+    font-size:20px;
+}
 
 /*  page 3 couleur:
 mauve: #A18898
