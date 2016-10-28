@@ -293,3 +293,168 @@ HEX: #1E1921
 	height:100%;
 	width:0%;
 }
+
+
+
+
+/*SKILL */
+.progress2{
+  max-width:1000px;
+  margin: 40px auto;
+    height:100px;
+}
+
+
+/* STYLES FOR PROGRESSBARS */
+
+.progress2-radial, .progress-radial * {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+/* -------------------------------------
+ * Bar container
+ * ------------------------------------- */
+.progress2-radial {
+  float: left;
+  margin-right: 4%;
+  position: relative;
+  width: 20%;
+  border-radius: 50%;
+}
+.progress2-radial:first-child {
+  margin-left: 4%;
+}
+/* -------------------------------------
+ * Optional centered circle w/text
+ * ------------------------------------- */
+.progress2-radial .overlay {
+  position: absolute;
+  width: 80%;
+  background-color: #7BAABE;
+  border-radius: 50%;
+  font-size: 14px;
+    top:50%;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.progress2-radial .overlay p{
+    position: absolute;
+    line-height: 40px;
+    text-align: center;
+    width: 100%;
+    top:50%;
+    margin-top: -20px;
+}
+
+/* -------------------------------------
+ * Mixin for progress-% class
+ * ------------------------------------- */
+.progress2-0 {
+  background-image: -webkit-linear-gradient(0deg, #f0f0f0 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(0deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+  background-image: linear-gradient(90deg, #f0f0f0 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(90deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+}
+
+.progress2-5 {
+  background-image: -webkit-linear-gradient(0deg, #f0f0f0 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(342deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+  background-image: linear-gradient(90deg, #f0f0f0 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(108deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+}
+
+.progress2-10 {
+  background-image: -webkit-linear-gradient(0deg, #f0f0f0 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(324deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+  background-image: linear-gradient(90deg, #f0f0f0 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(126deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+}
+
+.progress2-15 {
+  background-image: -webkit-linear-gradient(0deg, #f0f0f0 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(306deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+  background-image: linear-gradient(90deg, #f0f0f0 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(144deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+}
+
+.progress2-20 {
+  background-image: -webkit-linear-gradient(0deg, #f0f0f0 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(288deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+  background-image: linear-gradient(90deg, #f0f0f0 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(162deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+}
+
+.progress2-25 {
+  background-image: -webkit-linear-gradient(0deg, #f0f0f0 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(270deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+  background-image: linear-gradient(90deg, #f0f0f0 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(180deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+}
+
+.progress2-30 {
+  background-image: -webkit-linear-gradient(0deg, #f0f0f0 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(252deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+  background-image: linear-gradient(90deg, #f0f0f0 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(198deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+}
+
+.progress2-35 {
+  background-image: -webkit-linear-gradient(0deg, #f0f0f0 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(234deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+  background-image: linear-gradient(90deg, #f0f0f0 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(216deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+}
+
+.progress2-40 {
+  background-image: -webkit-linear-gradient(0deg, #f0f0f0 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(216deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+  background-image: linear-gradient(90deg, #f0f0f0 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(234deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+}
+
+.progress2-45 {
+  background-image: -webkit-linear-gradient(0deg, #f0f0f0 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(198deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+  background-image: linear-gradient(90deg, #f0f0f0 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(252deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+}
+
+.progress2-50 {
+  background-image: -webkit-linear-gradient(180deg, #3B655D 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+  background-image: linear-gradient(-90deg, #3B655D 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+}
+
+.progress2-55 {
+  background-image: -webkit-linear-gradient(162deg, #3B655D 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+  background-image: linear-gradient(-72deg, #3B655D 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+}
+
+.progress2-60 {
+  background-image: -webkit-linear-gradient(144deg, #3B655D 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+  background-image: linear-gradient(-54deg, #3B655D 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+}
+
+.progress2-65 {
+  background-image: -webkit-linear-gradient(126deg, #3B655D 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+  background-image: linear-gradient(-36deg, #3B655D 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+}
+
+.progress2-70 {
+  background-image: -webkit-linear-gradient(108deg, #3B655D 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+  background-image: linear-gradient(-18deg, #3B655D 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+}
+
+.progress2-75 {
+  background-image: -webkit-linear-gradient(90deg, #3B655D 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+  background-image: linear-gradient(0deg, #3B655D 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+}
+
+.progress2-80 {
+  background-image: -webkit-linear-gradient(72deg, #3B655D 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+  background-image: linear-gradient(18deg, #3B655D 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+}
+
+.progress2-85 {
+  background-image: -webkit-linear-gradient(54deg, #3B655D 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+  background-image: linear-gradient(36deg, #3B655D 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+}
+
+.progress2-90 {
+  background-image: -webkit-linear-gradient(36deg, #3B655D 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+  background-image: linear-gradient(54deg, #3B655D 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+}
+
+.progress2-95 {
+  background-image: -webkit-linear-gradient(18deg, #3B655D 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+  background-image: linear-gradient(72deg, #3B655D 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+}
+
+.progress2-100 {
+  background-image: -webkit-linear-gradient(0deg, #3B655D 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+  background-image: linear-gradient(90deg, #3B655D 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #3B655D 50%, #f0f0f0 50%, #f0f0f0);
+}

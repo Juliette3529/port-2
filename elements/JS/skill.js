@@ -9,3 +9,13 @@ $(document).ready(function() {
   $('.ui').css('width', '70%');
   $('.rwd').css('width', '80%');
 });
+$( document ).ready(function() {
+    $(".setsize").each(function() {
+        $(this).height($(this).width());
+    });
+});
+$(window).on('resize', function(){
+    $(".setsize").each(function() {
+        $(this).height($(this).width());
+    });
+});
