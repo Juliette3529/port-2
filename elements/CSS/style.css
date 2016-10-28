@@ -253,3 +253,43 @@ HEX: #1E1921
 
 
 
+/* PAGE 4 */
+.skills {
+	width: 100%;
+	margin: 20px 0px 30px 30px;
+}
+
+.skillsTop {
+	width: 100%;
+	margin: 5px;
+	text-align: left;
+	font-weight: 600;
+  font-family: sans-serif;
+  font-weight: 200;
+}
+
+.skillsBottom {
+	width: 80%;
+	margin: 2px 0px 0px 0px;
+}
+
+.progress {
+	background:#e9e5e2;
+	height:25px;
+  -moz-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;
+  -webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0    #fcfcfc;
+	box-shadow: 0 1px 0px #bbbbbb inset, 0 1px 0 #fcfcfc;
+}
+
+.progress-bar {
+  background-image: -webkit-linear-gradient(left, #3B655D 0%,
+    #518094 100%);
+  background-image: -moz-linear-gradient(left, #3B655D 0%,
+    #518094 100%);
+  background-image: -o-linear-gradient(left, #3B655D 0%,
+    #518094 100%);
+  background-image: linear-gradient(to right, #3B655D 0%,
+    #518094 100%);
+	height:100%;
+	width:0%;
+}
