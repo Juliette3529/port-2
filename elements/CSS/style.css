@@ -55,11 +55,13 @@ body {
     background-size:90px;
     height:200px;
     background-repeat: no-repeat;
+    margin-left: 5%;
 }
 .bac p{
     margin-top:8%;
     font-size:22px;
     margin-left:28%;
+    margin-left: 40%
 }
 .Serveuse{
     background-image:url(../img/people.png);
@@ -240,10 +242,11 @@ HEX: #1E1921
 }
 .description_projet{
     font-size:22px;
-    margin-top:8%;
+    margin-top:6%;
 }
 .main section.form {
     background-image: url(../img/contact.jpg);
     background-size: cover;
     opacity: 0.8;
 }
+
