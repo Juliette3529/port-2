@@ -37,75 +37,43 @@ body {
 .mon_parcours i{
     font-size:29px;
 }
-.licence{
-    background-image:url(../img/book.png);
-    background-position: left;
-    background-size:90px;
-    height:200px;
-    background-repeat: no-repeat;
-}
-.licence p{
-    margin-top:8%;
-    font-size:22px;
-    margin-left:28%;
-}
-.bac{
-    background-image:url(../img/graduation.png);
-    background-position: left;
-    background-size:90px;
-    height:200px;
-    background-repeat: no-repeat;
-    margin-left: 5%;
-}
-.bac p{
-    margin-top:8%;
-    font-size:22px;
-    margin-left:28%;
-    margin-left: 40%
-}
-.Serveuse{
-    background-image:url(../img/people.png);
-    background-position: left;
-    background-size:90px;
-    height:200px;
-    background-repeat: no-repeat;
-}
-.Serveuse p{
-    margin-top:8%;
-    font-size:22px;
-    margin-left:28%;
-}
-.CodeAc{
-    background-image:url(../img/computer.png);
-    background-position: left;
-    background-size:90px;
-    height:200px;
-    background-repeat: no-repeat;
-}
-.CodeAc p{
-    margin-top:10%;
-    font-size:22px;
-    margin-left:30%;
-}
+
 .LaCodAc{
     background-color:#FFD05B;
-    height:40vh;
+    height:35vh;
+    padding:4vh;
+    margin-top:7vh;
 }
 .LaCodAc p{
     color:#2274A5;
     font-size:18px;
+    font-family: 'Rubik', sans-serif;
 }
 
 
 .main section.page3 {
-    background: #FFD05B;
+    background: #FFF;
 }
 
 .main section.page4 {
-    background: #F5F5F5;
+    background: #FFF;
+}
+.chrono{
+    padding-left:10%;
+}
+.chrono img{
+    height:17vh;
+}
+.chrono p{
+    margin-top:3vh;
+    font-size:16px;
+    font-family: 'Rubik', sans-serif;
 }
 
-
+.date{
+    height:35vh;
+    margin-left:1vh;
+}
 
 .mes_projets{
     padding-top:3%;
@@ -231,7 +199,7 @@ body {
 .description_projet{
     font-size:22px;
     margin-top:6%;
-    color:#E83F6F;
+    color:#2274A5;
 }
 .main section.form {
     background-image: url(../img/contact.jpg);
