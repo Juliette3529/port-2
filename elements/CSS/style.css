@@ -416,3 +416,19 @@ body {
 .clear{
     height:120px;
 }
+.dot{
+    border-radius:50%;
+    background-color:#F1DD23;
+    width:15vw;
+    height:25vh;
+}
+.dot p{
+    padding-top:10vh;
+}
+/*********************************************************
+************************/
+explication{
+    background-color:#E83F6F;
+    height:100%;
+}
+
