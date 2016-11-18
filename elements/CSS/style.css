@@ -161,6 +161,7 @@ body {
 }
 .exemple p {
   font-size: 0.8em;
+font-family: 'Rubik', sans-serif;
 }
 .exemple i {
   position: absolute;
@@ -427,8 +428,28 @@ body {
 }
 /*********************************************************
 ************************/
-explication{
-    background-color:#E83F6F;
-    height:100%;
+.nopad{
+    padding:0;
 }
+.explication{
+    background-color:#E83F6F;
+    height:100vh;
+    width:10vw;
+    color:#E83F6F;
+    font-family: 'Rubik', sans-serif;
+    font-size:20px;
+}
+.explication:hover{
+    height:100vh;
+    width:25vw;
+    color:aliceblue;
+}
+.explication li{
+    list-style:upper-roman;
+}
+.explication ul{
+    padding-top:7vh;
+    padding-left:2vw;
+}
+
 
