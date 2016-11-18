@@ -469,7 +469,7 @@ HEX: #1E1921
 
  .block {
      margin-top:25px;
-   width: 10%;
+   width: 30%;
    height: 300px;
    display: inline-block;
    background-color: #E83F6F;
@@ -485,7 +485,7 @@ HEX: #1E1921
 
  .block:hover {
    background-color: #2274A5;
-   width: 30%;
+   width: 50%;
    -webkit-transition: width .5s ease-in-out, background-color .5s ease-in-out;
    -moz-transition: width .5s ease-in-out, background-color .5s ease-in-out;
    -ms-transition: width .5s ease-in-out, background-color .5s ease-in-out;
@@ -521,14 +521,17 @@ HEX: #1E1921
 
  .img-p {
    position: absolute;
-   font-size: 16px;
+   font-size: 18px;
    opacity: 0;
    color: #FFF;
    text-align: left;
-   line-height: 1.6em;
- }
 
- .p-container {
+ }
+.a{
+    font-size:22px;
+    color:#F1DD23;
+}
+.p-container {
    width: 80%;
    position: relative;
    top: 30%;
@@ -537,6 +540,7 @@ HEX: #1E1921
 
  h1 {
    color: #fff;
+     margin-bottom:10px;
  }
 
 
@@ -581,13 +585,13 @@ HEX: #1E1921
 
 @media (min-width: 768px) {
       .block {
-        width: 15%;
+        width: 20%;
       }
     }
 
     @media (min-width: 992px) {
       .block {
-        width: 10%;
+        width: 15%;
       }
     }
 
@@ -620,3 +624,36 @@ HEX: #1E1921
    -o-transition: all 1s ease;
    transition: all 1s ease;
  }
+.icone1{
+    background:url(../img/female_icon.png);
+    position: relative;
+   margin-left: 5%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100%;
+}
+.icone1:hover{
+    background:none;
+}
+.icone2{
+    background:url(../img/coeur_icone.png);
+    position: relative;
+   margin-left: 5%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100%;
+}
+.icone2:hover{
+    background:none;
+}
+.icone3{
+    background:url(../img/enveloppe_icone.png);
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100%;
+}
+.icone3:hover{
+    background:none;
+}
+
