@@ -417,7 +417,6 @@ body {
 .icone1{
     background:url(../img/female_icon.png);
     position: relative;
-   margin-left: 5%;
     background-position: center;
     background-repeat: no-repeat;
     height:100%;
@@ -428,7 +427,6 @@ body {
 .icone2{
     background:url(../img/coeur_icone.png);
     position: relative;
-   margin-left: 5%;
     background-position: center;
     background-repeat: no-repeat;
     height:100%;
@@ -437,6 +435,7 @@ body {
     background:none;
 }
 .icone3{
+    background-color:blue;
     background:url(../img/enveloppe_icone.png);
     position: relative;
     background-position: center;
@@ -446,4 +445,6 @@ body {
 .icone3:hover{
     background:none;
 }
-
+.clear{
+    height:120px;
+}
