@@ -468,6 +468,7 @@ HEX: #1E1921
 
 
  .block {
+     margin-top:25px;
    width: 10%;
    height: 300px;
    display: inline-block;
@@ -493,6 +494,14 @@ HEX: #1E1921
  }
 
  .block:hover .img-p {
+   opacity: 1;
+   -webkit-transition: opacity .5s .51s ease-in-out;
+   -moz-transition: opacity .5s .51s ease-in-out;
+   -ms-transition: opacity .5s .51s ease-in-out;
+   -o-transition: opacity .5s .51s ease-in-out;
+   transition: opacity .5s .51s ease-in-out;
+ }
+.block:hover .img-p {
    opacity: 1;
    -webkit-transition: opacity .5s .51s ease-in-out;
    -moz-transition: opacity .5s .51s ease-in-out;
