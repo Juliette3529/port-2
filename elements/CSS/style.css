@@ -439,7 +439,7 @@ font-family: 'Rubik', sans-serif;
     max-width:22vw;
     color:#E83F6F;
     font-family: 'Rubik', sans-serif;
-    font-size:18px;
+    font-size:16px;
 
 }
 .explication:hover{
@@ -452,7 +452,7 @@ font-family: 'Rubik', sans-serif;
     margin-left:2vw;
 }
 .explication ul{
-    padding-top:7vh;
+    padding-top:5vh;
     padding-left:2vw;
 }
 .explication h4{
@@ -460,6 +460,6 @@ font-family: 'Rubik', sans-serif;
 }
 .explication { transition: all .4s ease-in-out; }
 .explication:hover { transform: scale(1.1); }
-
-
-
+.btn {
+    transform:translateX(900px);
+}
