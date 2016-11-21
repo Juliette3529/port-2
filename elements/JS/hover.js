@@ -13,3 +13,20 @@ $('ul.nav li.dropdown').hover(function() {
     $(this).find('> .dropdown-menu').stop(true, true).fadeOut(timerOut);
     $(this).removeClass('open');
 });
+
+
+$("#dialog").dialog({
+    autoOpen: false,
+    show: {
+        effect: "show",
+        duration: 1000
+    },
+    hide: {
+        effect: "fadeOut",
+        duration: 1000
+    }
+});
+
+$("#dialog_link").click(function () {
+    $("#dialog").dialog("open");
+});
