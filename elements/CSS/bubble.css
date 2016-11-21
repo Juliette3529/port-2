@@ -23,9 +23,9 @@
     background-color:#1BBC9B;
 }
 .PHP {
-    width: 150px;
-    height: 150px;
-    line-height: 150px;
+    width: 180px;
+    height: 180px;
+    line-height: 180px;
     background-color: #2274A5;
 }
 .Ruby {
@@ -65,21 +65,21 @@
     background-color:#2274A5;
 }
 .Symfony {
-    width: 140px;
-    height: 140px;
-    line-height: 140px;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
     background-color:#FF7D45;
 }
-.Boostrap {
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
+.Bootstrap {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
     background-color:#F1DD23;
 }
 .Wordpress {
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
     background-color:#87E53E;
 }
 .MySQL {
@@ -113,49 +113,49 @@
 .bubble {
    animation-name: bubble;
    animation-iteration-count: infinite;
-   animation-timing-function: ease;
-   animation-duration: 15s;
+   animation-timing-function: linear;
+   animation-duration: 13s;
    animation-direction: alternate;
    animation-delay: 0s;
 }
 @keyframes bubble {
    from {
-       transform: translateY(50vh);
+       transform: translateY(0px) translateX(0px);
    }
    to {
-       transform: translateY(-20vh) translateX(100vh);
+       transform: translateY(400px) translateX(700px);
    }
 }
 .bubble_un {
    animation-name: bubble_un;
    animation-iteration-count: infinite;
    animation-timing-function: ease;
-   animation-duration: 15s;
+   animation-duration: 10s;
    animation-direction: alternate;
    animation-delay: 0s;
 }
 @keyframes bubble_un {
    from {
-       transform: translateY(50vh) translateX(180px);
+       transform:  translateX(180px);
    }
    to {
-       transform: translateY(-20vh) translateX(58px);
+       transform: translateY(90px) translateX(788px);
    }
 }
 .bubble_deux {
    animation-name: bubble_deux;
    animation-iteration-count: infinite;
    animation-timing-function: ease;
-   animation-duration: 15s;
+   animation-duration: 17s;
    animation-direction: alternate;
    animation-delay: 0s;
 }
 @keyframes bubble_deux {
    from {
-       transform: translateY(-100px) translateX(75px);
+       transform: translateY(0px) translateX(75px);
    }
    to {
-      transform: translateY(300px) translateX(405px);
+      transform: translateY(250px) translateX(405px);
    }
 }
 .bubble_trois {
@@ -168,12 +168,153 @@
 }
 @keyframes bubble_trois {
    from {
-       transform: translateY(-200px) translateX(55px);
+       transform: translateY(0px) translateX(55px);
    }
    to {
-      transform: translateY(400px) translateX(405px);
+      transform: translateY(50px) translateX(905px);
    }
 }
-
-
-
+.bubble_quatre {
+   animation-name: bubble_quatre;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease;
+   animation-duration: 18s;
+   animation-direction: alternate;
+   animation-delay: 0s;
+}
+@keyframes bubble_quatre {
+   from {
+       transform: translateY(-100px) translateX(605px);
+   }
+   to {
+      transform: translateY(-300px) translateX(55px);
+   }
+}
+.bubble_cinq {
+   animation-name: bubble_cinq;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   animation-duration: 25s;
+   animation-direction: alternate;
+   animation-delay: 0s;
+}
+@keyframes bubble_cinq {
+   from {
+       transform: translateY(-200px) translateX(405px);
+   }
+   to {
+      transform: translateY(-400px) translateX(100px);
+   }
+}
+.bubble_six {
+   animation-name: bubble_six;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease;
+   animation-duration: 20s;
+   animation-direction: alternate;
+   animation-delay: 0s;
+}
+@keyframes bubble_six {
+  from {
+       transform: translateY(-600px) translateX(805px);
+   }
+   to {
+      transform: translateY(-100px) translateX(985px);
+   }
+}
+.bubble_sept {
+   animation-name: bubble_sept;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-out;
+   animation-duration: 10s;
+   animation-direction: alternate;
+   animation-delay: 0s;
+}
+@keyframes bubble_sept {
+from {
+       transform: translateY(-200px) translateX(705px);
+   }
+   to {
+      transform: translateY(-700px) translateX(600px);
+   }
+}
+.bubble_huit {
+   animation-name: bubble_huit;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   animation-duration: 8s;
+   animation-direction: alternate;
+   animation-delay: 0s;
+}
+@keyframes bubble_huit {
+from {
+       transform: translateY(-800px) translateX(90px);
+   }
+   to {
+      transform: translateY(-580px) translateX(100px);
+   }
+}
+.bubble_neuf {
+   animation-name: bubble_neuf;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   animation-duration: 18s;
+   animation-direction: alternate;
+   animation-delay: 0s;
+}
+@keyframes bubble_neuf {
+from {
+       transform: translateY(-800px) translateX(700px);
+   }
+   to {
+      transform: translateY(-480px) translateX(350px);
+   }
+}
+.bubble_dix {
+   animation-name: bubble_dix;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   animation-duration: 8s;
+   animation-direction: alternate;
+   animation-delay: 0s;
+}
+@keyframes bubble_dix {
+from {
+       transform: translateY(-600px) translateX(400px);
+   }
+   to {
+      transform: translateY(-880px) translateX(280px);
+   }
+}
+.bubble_eleven {
+   animation-name: bubble_eleven;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   animation-duration: 10s;
+   animation-direction: alternate;
+   animation-delay: 0s;
+}
+@keyframes bubble_eleven {
+from {
+       transform: translateY(-600px) translateX(900px);
+   }
+   to {
+      transform: translateY(-680px) translateX(0px);
+   }
+}
+.bubble_twelve {
+   animation-name: bubble_twelve;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   animation-duration: 20s;
+   animation-direction: alternate;
+   animation-delay: 0s;
+}
+@keyframes bubble_twelve {
+from {
+       transform: translateY(-1100px) translateX(900px);
+   }
+   to {
+      transform: translateY(-1150px) translateX(0px);
+   }
+}
