@@ -435,9 +435,12 @@ font-family: 'Rubik', sans-serif;
     background-color:#E83F6F;
     height:100vh;
     width:12vw;
+    min-width: 12vw;
+    max-width:22vw;
     color:#E83F6F;
     font-family: 'Rubik', sans-serif;
     font-size:18px;
+
 }
 .explication:hover{
     height:100vh;

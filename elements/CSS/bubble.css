@@ -1,98 +1,147 @@
-.cercle{
-    margin-left:12vh;
+.flexbox {
+    display: flex;
 }
+
+.cercle {
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+}
+
 .circle {
-	border-radius: 50%;
-    margin-left:22vh;
-}
-.circle p{
-    text-align:center;
-    font-size:20px;
-    margin-top:35%;
+    border-radius: 50%;
+    text-align: center;
     font-family: 'Rubik', sans-serif;
-    font-weight:800;
+    font-weight:900;
     color:#FFF;
 }
+
 .JS {
-    margin-left:22vh;
-    width: 10vw;
-	height: 20vh;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
     background-color:#1BBC9B;
-    margin-top:22vh;
 }
+.PHP {
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    background-color: #2274A5;
+}
+.Ruby {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background-color: #87E53E;
+}
+.HTML {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #F1DD23;
+}
+.CSS {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #FF7D45;
+}
+.CSS {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #FF7D45;
+}
+.Git {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background-color:#1BBC9B;
+}
+.JQuery {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background-color:#2274A5;
+}
+.Symfony {
+    width: 140px;
+    height: 140px;
+    line-height: 140px;
+    background-color:#FF7D45;
+}
+.Boostrap {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background-color:#F1DD23;
+}
+.Wordpress {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background-color:#87E53E;
+}
+.MySQL {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background-color:#2274A5;
+}
+.Behat {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color:#1BBC9B;
+}
+.Github {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color:#F1DD23;
+}
+.Less {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background-color:#87E53E;
+}
+
+
 
 
 .bubble {
-    position: absolute;
-    -webkit-animation: bubble 10s linear infinite; /* Chrome, Safari 5 */
-       -moz-animation: bubble 10s linear infinite; /* Firefox 5-15 */
-         -o-animation: bubble 10s linear infinite; /* Opera 12+ */
-            animation: bubble 10s linear infinite; /* Chrome, Firefox 16+,
-                                                      IE 10+, Safari 5 */
+   animation-name: bubble;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease;
+   animation-duration: 15s;
+   animation-direction: alternate;
+   animation-delay: 0s;
 }
-
-@-webkit-keyframes bubble {
-    from { -webkit-transform: rotate(0deg) translateX(22vh) rotate(0deg); }
-    to   { -webkit-transform: rotate(360deg) translateX(22vh) rotate(-360deg); }
+@keyframes bubble {
+   from {
+       transform: translateY(50vh);
+   }
+   to {
+       transform: translateY(-20vh) translateX(100vh);
+   }
 }
-
-@-moz-keyframes bubble {
-    from { -moz-transform: rotate(0deg) translateX(22vh) rotate(0deg); }
-    to   { -moz-transform: rotate(360deg) translateX(22vh) rotate(-360deg); }
+.bubble_un {
+   animation-name: bubble_un;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease;
+   animation-duration: 15s;
+   animation-direction: alternate;
+   animation-delay: 0s;
 }
-
-@-o-keyframes bubble {
-    from { -o-transform: rotate(0deg) translateX(22vh) rotate(0deg); }
-    to   { -o-transform: rotate(360deg) translateX(22vh) rotate(-360deg); }
+@keyframes bubble_un {
+   from {
+       transform: translateY(50vh) translateX(180px);
+   }
+   to {
+       transform: translateY(-20vh) translateX(58px);
+   }
 }
-
- /*deuxieme sorte de bubble*/
-
-.PHP {
-    margin-left:42vw;
-    width: 15vw;
-	height: 29vh;
-    background-color:#2274A5;
-    margin-top:35vh;
-}
-
-.bubble_un  {
-    position: absolute;
-    -webkit-animation: bubble_un  12s alternate infinite; /* Chrome, Safari 5 */
-       -moz-animation: bubble_un  12s alternate infinite; /* Firefox 5-15 */
-         -o-animation: bubble_un  12s alternate infinite; /* Opera 12+ */
-            animation: bubble_un  12s alternate infinite; /* Chrome, Firefox 16+,
-                                                      IE 10+, Safari 5 */
-}
-
-@-webkit-keyframes bubble_un {
-    from { -webkit-transform: rotate(0deg) translateX(12vh) rotate(10deg); }
-    to   { -webkit-transform: rotate(360deg) translateX(12vh) rotate(-360deg); }
-}
-
-@-moz-keyframes bubble_un  {
-    from { -moz-transform: rotate(360deg) translateX(12vh) rotate(-360deg); }
-    to   {
-    -moz-transform: rotate(0deg) translateX(12vh) rotate(10deg);}
-}
-
-@-o-keyframes bubble_un  {
-    from { -o-transform: rotate(0deg) translateX(12vh) rotate(10deg); }
-    to   { -o-transform: rotate(360deg) translateX(12vh) rotate(-360deg); }
-}
-
-/* troisieme type bubble*/
-.Ruby {
-    margin-left:42vw;
-    width: 8vw;
-	height: 12vh;
-    background-color:#F1DD23;
-    margin-top:35vh;
-}
-.Ruby p{
-    padding-top:30%;
-}
-
 .bubble_deux {
    animation-name: bubble_deux;
    animation-iteration-count: infinite;
@@ -103,28 +152,28 @@
 }
 @keyframes bubble_deux {
    from {
-       transform: translateY(50vh);
+       transform: translateY(-100px) translateX(75px);
    }
    to {
-       transform: translateY(-20vh) translateX(50vh);
+      transform: translateY(300px) translateX(405px);
    }
 }
-.circle_deux {
-	border-radius: 50%;
-    margin-left:22vh;
+.bubble_trois {
+   animation-name: bubble_trois;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease;
+   animation-duration: 15s;
+   animation-direction: alternate;
+   animation-delay: 0s;
 }
-.circle_deux p{
-    text-align:center;
-    font-size:10px;
-    margin-top:30%;
-    font-family: 'Rubik', sans-serif;
-    font-weight:800;
-    color:#FFF;
+@keyframes bubble_trois {
+   from {
+       transform: translateY(-200px) translateX(55px);
+   }
+   to {
+      transform: translateY(400px) translateX(405px);
+   }
 }
-.Ruby {
-    margin-left:42vw;
-    width: 10vw;
-	height: 20vh;
-    background-color:#F1DD23;
-    margin-top:35vh;
-}
+
+
+
