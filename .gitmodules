@@ -1,0 +1,15 @@
+[submodule "elements/ancien_projets"]
+	path = elements/ancien_projets
+	url = https://github.com/Melleprunelle/pastime.github.io
+[submodule "elements/ancien_projet/pastime"]
+	path = elements/ancien_projet/pastime
+	url = https://github.com/Melleprunelle/pastime.github.io
+[submodule "elements/ancien_projet/themebootstrap"]
+	path = elements/ancien_projet/themebootstrap
+	url = https://github.com/Juliette3529/Challenge_4
+[submodule "elements/ancien_projet/cookieclicker"]
+	path = elements/ancien_projet/cookieclicker
+	url = https://github.com/Juliette3529/Challenge_6
+[submodule "elements/ancien_projet/js_quizz"]
+	path = elements/ancien_projet/js_quizz
+	url = https://github.com/Juliette3529/js_quizz
