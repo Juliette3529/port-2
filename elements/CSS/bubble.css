@@ -1,5 +1,8 @@
 .flexbox {
     display: flex;
+        background-image:url(../img/agario_bg.png);
+    background-size:30%;
+    background-repeat:repeat;
 }
 
 .rond {
@@ -12,11 +15,7 @@
     left:0;
     top:0;
 }
-.cercle{
-    background-image:url(../img/agario_bg.png);
-    background-size:30%;
-    background-repeat:repeat;
-}
+
 .limite {
     height:600px;
     width:1100px;
